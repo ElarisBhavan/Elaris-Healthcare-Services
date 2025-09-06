@@ -235,7 +235,6 @@ main {
 .hero-content {
   text-align: center;
   padding: 2rem 1rem;
-  max-width: 90%;
   overflow: hidden;
 }
 
@@ -1808,6 +1807,7 @@ main {
     font-size: 0.80rem;
   }
 }
+
 
 
 
