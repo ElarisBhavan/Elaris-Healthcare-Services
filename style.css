@@ -210,7 +210,6 @@ main {
 .hero-wave {
   position: relative;
   z-index: 0;
-  width: 100vw;
   min-height: 80vh; /* more flexible than fixed height */
   overflow: hidden;
   display: flex;
@@ -253,9 +252,9 @@ main {
 .hero-title .line1 {
   font-size: clamp(2.5rem, 3vw + 1.5rem, 4.2rem);
   color: #ffffff;
-  animation: typing1 1.5s steps(15, end) forwards, blink 0.5s step-end infinite;
+  animation: typing1 1.5s steps(10, end) forwards, blink 0.5s step-end infinite;
   overflow: hidden;
-  width:0;
+  width: 0;
   margin-bottom: -30px;
 }
 
@@ -263,12 +262,12 @@ main {
   font-size: clamp(3.5rem, 4vw + 1.5rem, 5.8rem);
   font-weight: bold;
   color: #ffffff;
-  animation: typing2 2s steps(20, end) forwards;
+  animation: typing2 2s steps(17, end) forwards;
   overflow: hidden;
-  width:0;
+  width: 0;
   animation-delay: 1.8s;
   animation-fill-mode: forwards;
-
+}
 
 /* Tagline */
 .hero-tagline {
@@ -1762,6 +1761,7 @@ main {
   margin-bottom: 5px;
   margin-left: 100px;
   }
+  
 }
 
 /* Tablet optimization */
@@ -1772,7 +1772,7 @@ main {
   .footer-right h2 {
     font-size: clamp(1.6rem, 1vw + 1.4rem, 2rem);
   }
-    .footer-logo{
+  .footer-logo{
     align-self: center;
   }
 }
@@ -1804,19 +1804,6 @@ main {
 
   .footer-right h3{
     text-align: center;
-    font-size: 0.80rem;
+    font-size: 0.85rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
