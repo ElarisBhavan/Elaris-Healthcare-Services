@@ -150,6 +150,7 @@ body {
   .nav-menu ul li a {
     display: block; /* instead of flex */
     font-size: clamp(1.1rem, 2vw + 0.5rem, 1.1rem);
+    font-family: Garamond;
     padding: 0;
     margin: 0;
     list-style: none;  
@@ -1807,4 +1808,5 @@ main {
     font-size: 0.85rem;
   }
 }
+
 
