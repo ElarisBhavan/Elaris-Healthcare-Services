@@ -253,22 +253,22 @@ main {
 .hero-title .line1 {
   font-size: clamp(2.5rem, 3vw + 1.5rem, 4.2rem);
   color: #ffffff;
-  animation: typing1 1.5s steps(10, end) forwards, blink 0.5s step-end infinite;
+  animation: typing1 1.5s steps(30, end) forwards, blink 0.5s step-end infinite;
   overflow: hidden;
-  width: 0;
   margin-bottom: -30px;
+  white-space: nowrap;
 }
 
 .hero-title .line2 {
   font-size: clamp(3.5rem, 4vw + 1.5rem, 5.8rem);
   font-weight: bold;
   color: #ffffff;
-  animation: typing2 2s steps(17, end) forwards;
+  animation: typing2 2s steps(40, end) forwards;
   overflow: hidden;
-  width: 0;
+  white-space: nowrap;
   animation-delay: 1.8s;
   animation-fill-mode: forwards;
-}
+
 
 /* Tagline */
 .hero-tagline {
@@ -290,8 +290,8 @@ main {
 }
 
 /* Animations */
-@keyframes typing1 { from { width: 0; } to { width: 9ch; } }
-@keyframes typing2 { from { width: 0; } to { width: 15ch; } }
+@keyframes typing1 { from { width: 0; } to { width: 100%; } }
+@keyframes typing2 { from { width: 0; } to { width: 100%; } }
 @keyframes fadeIn { to { opacity: 1; } }
 
 /* --- Desktop --- */
@@ -1807,6 +1807,7 @@ main {
     font-size: 0.80rem;
   }
 }
+
 
 
 
