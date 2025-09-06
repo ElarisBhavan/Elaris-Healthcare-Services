@@ -1734,9 +1734,6 @@ main {
   max-width: 100px;
   height: auto;
   margin-top: 0.5rem;
-  align-self: center;
-  margin-left: 100px;
-  margin-bottom: 5px;
 }
 
 
@@ -1767,6 +1764,8 @@ main {
   margin-left: 100px;
   }
   
+}
+
 /* Tablet optimization */
 @media (max-width: 1024px) and (min-width: 769px) {
   .footer-content {
@@ -1807,6 +1806,3 @@ main {
     font-size: 1rem;
   }
 }
-
-
-
