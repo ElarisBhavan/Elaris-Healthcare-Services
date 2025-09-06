@@ -1763,7 +1763,6 @@ main {
   margin-bottom: 5px;
   margin-left: 100px;
   }
-  
 }
 
 /* Tablet optimization */
@@ -1773,6 +1772,9 @@ main {
   }
   .footer-right h2 {
     font-size: clamp(1.6rem, 1vw + 1.4rem, 2rem);
+  }
+    .footer-logo{
+    align-self: center;
   }
 }
 
@@ -1806,3 +1808,4 @@ main {
     font-size: 1rem;
   }
 }
+
