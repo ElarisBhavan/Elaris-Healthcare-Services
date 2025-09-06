@@ -256,7 +256,6 @@ main {
   animation: typing1 1.5s steps(30, end) forwards, blink 0.5s step-end infinite;
   overflow: hidden;
   margin-bottom: -30px;
-  white-space: nowrap;
 }
 
 .hero-title .line2 {
@@ -265,7 +264,6 @@ main {
   color: #ffffff;
   animation: typing2 2s steps(40, end) forwards;
   overflow: hidden;
-  white-space: nowrap;
   animation-delay: 1.8s;
   animation-fill-mode: forwards;
 
@@ -1807,6 +1805,7 @@ main {
     font-size: 0.80rem;
   }
 }
+
 
 
 
