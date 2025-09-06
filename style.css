@@ -133,6 +133,7 @@ body {
   }
 
   .nav-menu ul {
+    font-family: Garamond;
     display: block; /* instead of flex */
     padding: 0;
     margin: 0;
@@ -1808,5 +1809,6 @@ main {
     font-size: 0.85rem;
   }
 }
+
 
 
