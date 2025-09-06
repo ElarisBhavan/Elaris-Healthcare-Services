@@ -289,8 +289,8 @@ main {
 }
 
 /* Animations */
-@keyframes typing1 { from { width: 0; } to { width: 9ch; } }
-@keyframes typing2 { from { width: 0; } to { width: 15ch; } }
+@keyframes typing1 { from { width: 0; } to { width: 100%; } }
+@keyframes typing2 { from { width: 0; } to { width: 100%; } }
 @keyframes fadeIn { to { opacity: 1; } }
 
 /* --- Desktop --- */
@@ -1807,3 +1807,4 @@ main {
     font-size: 0.85rem;
   }
 }
+
