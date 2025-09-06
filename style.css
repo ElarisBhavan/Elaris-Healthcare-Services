@@ -255,6 +255,8 @@ main {
   color: #ffffff;
   animation: typing1 1.5s steps(30, end) forwards, blink 0.5s step-end infinite;
   overflow: hidden;
+  white-space: nowrap;
+  width:0;
   margin-bottom: -30px;
 }
 
@@ -264,6 +266,8 @@ main {
   color: #ffffff;
   animation: typing2 2s steps(40, end) forwards;
   overflow: hidden;
+  white-space: nowrap;
+  width:0;
   animation-delay: 1.8s;
   animation-fill-mode: forwards;
 
@@ -288,8 +292,8 @@ main {
 }
 
 /* Animations */
-@keyframes typing1 { from { width: 0; } to { width: 9ch; } }
-@keyframes typing2 { from { width: 0; } to { width: 15ch; } }
+@keyframes typing1 { from { width: 0; } to { width: 12ch; } }
+@keyframes typing2 { from { width: 0; } to { width: 19ch; } }
 @keyframes fadeIn { to { opacity: 1; } }
 
 /* --- Desktop --- */
@@ -1805,6 +1809,7 @@ main {
     font-size: 0.80rem;
   }
 }
+
 
 
 
