@@ -1759,6 +1759,14 @@ main {
   animation: slideInRight 1s ease forwards;
 }
 
+/* Desktop Version*/
+@media (min-width:1025px) {
+  .footer-logo{
+  align-self: center;
+  margin-bottom: 5px;
+  margin-left: 100px;
+  }
+  
 /* Tablet optimization */
 @media (max-width: 1024px) and (min-width: 769px) {
   .footer-content {
@@ -1799,5 +1807,6 @@ main {
     font-size: 1rem;
   }
 }
+
 
 
