@@ -709,7 +709,7 @@ main {
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .topic-slider {
-    height: 1000px;
+    height: 1100px;
     max-height: none;
     overflow: visible;
     padding: 1rem;
@@ -1807,6 +1807,7 @@ main {
     font-size: 0.80rem;
   }
 }
+
 
 
 
