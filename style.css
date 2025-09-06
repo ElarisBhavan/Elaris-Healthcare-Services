@@ -288,7 +288,7 @@ main {
 }
 
 /* Animations */
-@keyframes typing1 { from { width: 0; } to { width: 10ch; } }
+@keyframes typing1 { from { width: 0; } to { width: 9ch; } }
 @keyframes typing2 { from { width: 0; } to { width: 15ch; } }
 @keyframes fadeIn { to { opacity: 1; } }
 
@@ -1805,6 +1805,7 @@ main {
     font-size: 0.80rem;
   }
 }
+
 
 
 
